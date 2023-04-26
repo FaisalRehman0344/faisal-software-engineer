@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Faisal Rehman",
+  title: "Hi all, I'm Faisal",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Java (Spring Boot) / Flutter / JavaScript / Angular / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1KW-WsoLvfOvO_19wwOVanr4IAMNhH6iO/view?usp=share_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/FaisalRehman0344",
+  linkedin: "https://www.linkedin.com/in/faisal-se",
+  gmail: "faisalarain737@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -54,9 +54,9 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Android and IOS applications using Flutter"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase / AWS / Digital Ocean / Stripe"
     )
   ],
 
@@ -64,6 +64,14 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -73,31 +81,27 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "angular",
+      fontAwesomeClassname: "fab fa-angular"
     },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "spring boot",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "flutter",
+      fontAwesomeClassname: "fab fa-android"
     },
     {
       skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "mongodb",
       fontAwesomeClassname: "fas fa-database"
     },
     {
@@ -107,10 +111,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "docker",
@@ -126,23 +126,15 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "University Of Sindh",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Bachelor of Science in Information Technology",
+      duration: "January 2020 - December 2023",
+      desc: "Created a final year project named SpeakOut",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Specially designed for women and children of Pakistan",
+        "Creating a safe and respectful environment: Our commitment to preventing harassment and abuse."
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -153,19 +145,19 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Backend",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -206,7 +198,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -239,7 +231,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -324,7 +316,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +335,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,25 +348,25 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+92-3443471199",
+  email_address: "faisalarain737@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
